@@ -38,7 +38,7 @@ const exp3 = "Recomendada caminada con una visión privilegiada de la ciudad. Ar
 const title4 = "Dominó";
 const des4 = "Vende completos desde 1952. El local de la calle Bandera es el más antiguo y el más conocido. En 2012, el local de Bandera fue declarado Monumento Histórico.";
 const dir4 = "Sucursales en todo Chile. Mi sede favorita: Av. Hernando de Aguirre 35";
-const exp4 = "Mi completo fav es el tipo 'dominó'. Fun fact: Ellos inventaron el día del completo."
+const exp4 = "Mi completo fav es el tipo 'dominó'. Fun fact: Ellos inventaron el día del completo. Extra: Muy buenas promos si compras por la app."
 
 const title5 = "Elkika Ilmenau";
 const des5 = "Elkika Ilmenau es una empresa familiar de origen alemán, que se dedica a la elaboración de embutidos y productos cárnicos. Fue fundada en 1930 por el alemán Enrique Ilmenau.";
@@ -146,14 +146,14 @@ function Landing() {
                 <div className="reactive-row">
                     <div className="elementleft">
                         <div className="title-element">{title1}</div>
-                        <StarsRating value={4.5} count={7} disabled={true}/>
+                        <StarsRating value={5} count={7} disabled={true}/>
                         <div className="line-element-3"></div>
                         <button className="button-element" onClick={click1}>Más info</button>
                     </div>
 
                     <div className="elementleft">
                         <div className="title-element">{title2}</div>
-                        <StarsRating value={4.5} count={7} disabled={true}/>
+                        <StarsRating value={6} count={7} disabled={true}/>
                         <div className="line-element-3"></div>
                         <button className="button-element" onClick={click2}>Más info</button>
                     </div>
@@ -179,21 +179,21 @@ function Landing() {
                 <div className="reactive-row">
                     <div className="elementleft">
                         <div className="title-element">{title4}</div>
-                        <StarsRating value={4.5} count={7} disabled={true}/>
+                        <StarsRating value={5.5} count={7} disabled={true}/>
                         <div className="line-element-3"></div>
                         <button className="button-element" onClick={click4}>Más info</button>
                     </div>
 
                     <div className="elementleft">
                         <div className="title-element">{title5}</div>
-                        <StarsRating value={4.5} count={7} disabled={true}/>
+                        <StarsRating value={6} count={7} disabled={true}/>
                         <div className="line-element-3"></div>
                         <button className="button-element" onClick={click5}>Más info</button>
                     </div>
 
                     <div className="elementleft">
                         <div className="title-element">{title6}</div>
-                        <StarsRating value={4.5} count={7} disabled={true}/>
+                        <StarsRating value={6.5} count={7} disabled={true}/>
                         <div className="line-element-3"></div>
                         <button className="button-element" onClick={click6}>Más info</button>
                     </div>
