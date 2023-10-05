@@ -106,7 +106,7 @@ function Landing() {
 
             <div className="cv-and-yoCasita-container">
                     <img className="yoCasita-landing" src={ yoCasita } alt="Yo en mi casita, un día con sol muy lindo" />
-                <a href="https://www.canva.com/design/DAFwXG6Hdoo/Fh3MTMBXS2imqSHZ2wJyNA/view?utm_content=DAFwXG6Hdoo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" rel="noreferrer">
+                <a href="https://www.canva.com/design/DAFwYUF2EEk/xI1wC0pYcr1JWDFNnwA2ww/view?utm_content=DAFwYUF2EEk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
                     <div className="middle">
                         <div className="text">Mi CV</div>
                     </div>
